@@ -8,4 +8,5 @@ package com.lightbend.lagom.maven_archetype_lagom_java.main;
 public class PolymorphismTest {
 
 	Animal myAnimal = new Animal();
+	//why won't my test class work!!
 }
