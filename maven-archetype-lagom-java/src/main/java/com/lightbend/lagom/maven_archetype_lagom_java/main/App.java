@@ -9,13 +9,9 @@ public class App
     public static void main( String[] args )
     {
 
-        testPolymorphism();
+        System.out.println("testing OOP concepts! :) ");
         
     }
     
-    public static void testPolymorphism()
-    {
-    	Animal myAnimal = new Animal();
-    	myAnimal.eat();
-    }
+
 }

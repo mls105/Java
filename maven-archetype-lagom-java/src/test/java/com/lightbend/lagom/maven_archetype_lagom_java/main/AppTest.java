@@ -14,9 +14,9 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void appTest()
     {
-    	App.testPolymorphism();
+
     }
     
 }
