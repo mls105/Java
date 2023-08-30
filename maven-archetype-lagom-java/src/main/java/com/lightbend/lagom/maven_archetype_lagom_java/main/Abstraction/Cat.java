@@ -16,6 +16,7 @@ public class Cat extends Animal implements Life {
 		this.name = name;
 	}	
 	
+	//method over riding (run time - Dynamic polymorphism)
 	@Override
 	public void makeNoise()
 	{
