@@ -17,5 +17,10 @@ public abstract class Animal {
 	{
 		System.out.println("My name is " + name);
 	}
+	
+	public void print()
+	{
+		System.out.println("name is " + name + " age is " + age);
+	}
 
 }
