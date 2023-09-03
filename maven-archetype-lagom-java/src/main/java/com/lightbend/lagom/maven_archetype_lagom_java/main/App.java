@@ -11,6 +11,7 @@ public class App
 
         System.out.println("testing OOP concepts! :) ");
         
+        //eclipse shorcut type sysout (ctr + space + enter) for prtintln 
     }
     
 
