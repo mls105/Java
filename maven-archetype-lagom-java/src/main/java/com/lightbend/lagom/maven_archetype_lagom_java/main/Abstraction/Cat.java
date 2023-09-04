@@ -8,7 +8,25 @@ import com.lightbend.lagom.maven_archetype_lagom_java.main.Interface.Life;
  *
  */
 public class Cat extends Animal implements Life {
+	private int age;
+	private String name;
 	
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	//constructor
 	public Cat(int age, String name)
 	{
