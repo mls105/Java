@@ -8,6 +8,11 @@ public class Bird {
 		this.name = name;
 		this.age = age;
 	}
+	
+//	public boolean equals(Object obj)
+//	{
+//		
+//	}
 
 	public int getAge() {
 		return age;
@@ -24,4 +29,5 @@ public class Bird {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
 }
