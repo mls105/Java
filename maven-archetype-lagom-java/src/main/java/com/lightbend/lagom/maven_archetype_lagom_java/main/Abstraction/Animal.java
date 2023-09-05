@@ -22,5 +22,11 @@ public abstract class Animal {
 	{
 		System.out.println("name is " + name + " age is " + age);
 	}
+	
+	//final!! can't be over ridden
+	public final void birth()
+	{
+		System.out.println("I'm alive!");
+	}
 
 }
