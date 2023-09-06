@@ -1,6 +1,8 @@
 package com.lightbend.lagom.maven_archetype_lagom_java.main.Equals;
 
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -12,6 +14,7 @@ public class EqualsExampleTest {
 	/**
 	 * == to compare primitives (boolean, byte, char, short, int, long, float and double)
 	 */
+	@SuppressWarnings({ "unused", "null" })
 	@Test
 	public void  equalsTest()
 	{
@@ -25,7 +28,6 @@ public class EqualsExampleTest {
 		
 		//checking memory location!!
 		assertTrue(someString == anotherString);
-
 		
 		String newString = new String("string");
 		String anotherNewString = new String("string");
@@ -40,9 +42,13 @@ public class EqualsExampleTest {
 		assertFalse(bird1.equals(bird2));
 		
 		//must override the equals in the bird class
+		Bird nullBird = null;
+		// null pointer!
+		assertNull(nullBird.getName().equals("Birdy boi"));
+		//string literal can be compared to null and not throw a null pointer
+		assertNotNull("Birdy boi".equals(nullBird.getName()));
 		
-		
-		
+
 		
 	}
 }
