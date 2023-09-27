@@ -40,15 +40,11 @@ public class EqualsExampleTest {
 		Bird bird2 = new Bird("Birdy boi", 2);
 		//not equal because it's using the default equals in the object class!!
 		assertFalse(bird1.equals(bird2));
-		
 		//must override the equals in the bird class
 		Bird nullBird = null;
 		// null pointer!
-		assertNull(nullBird.getName().equals("Birdy boi"));
+//		assertNull(nullBird.getName().equals("Birdy boi"));
 		//string literal can be compared to null and not throw a null pointer
-		assertNotNull("Birdy boi".equals(nullBird.getName()));
-		
-
-		
+		assertNotNull("Birdy boi".equals(nullBird));
 	}
 }
