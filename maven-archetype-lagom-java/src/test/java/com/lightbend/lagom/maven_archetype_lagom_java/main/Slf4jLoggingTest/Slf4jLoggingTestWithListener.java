@@ -41,7 +41,6 @@ public class Slf4jLoggingTestWithListener {
 	        
 	        // JUnit assertions
 	        List<ILoggingEvent> logsList = listAppender.list;
-	        assertEquals(Slf4jLogging.logString, logsList.get(0)
-	                                      .getMessage());
+	        assertEquals(Slf4jLogging.logString, logsList.get(0).getMessage());
 	    }
 	}
