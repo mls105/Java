@@ -25,7 +25,34 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+          <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+    	<dependency>
+    	<groupId>org.slf4j</groupId>
+    	<artifactId>slf4j-api</artifactId>
+    	<version>2.0.9</version>
+    	<scope>compile</scope> <!-- https://howtodoinjava.com/maven/maven-dependency-scopes/ -->
+	</dependency>
+	
+	<dependency>
+  		<groupId>uk.org.lidalia</groupId>
+  		<artifactId>slf4j-test</artifactId>
+ 		<version>1.1.0</version>
+	</dependency>
+	
+
+
+<!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.4.11</version>
+    <scope>test</scope>
+</dependency>
+
   </dependencies>
+  
+
+
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -69,6 +96,15 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+            <plugin>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <configuration>
+        <classpathDependencyExcludes>
+          <classpathDependencyExcludes>ch.qos.logback:logback-classic</classpathDependencyExcludes>
+        </classpathDependencyExcludes>
+      </configuration>
+    </plugin>
+        
       </plugins>
     </pluginManagement>
   </build>
