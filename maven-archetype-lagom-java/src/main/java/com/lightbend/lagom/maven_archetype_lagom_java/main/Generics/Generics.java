@@ -36,8 +36,6 @@ public class Generics {
 		printListWithWildCard(catList);
 		prtinListWithWildCardAndExtends(catList);
 		
-		
-		
 	}
 	
 	//This does not work!

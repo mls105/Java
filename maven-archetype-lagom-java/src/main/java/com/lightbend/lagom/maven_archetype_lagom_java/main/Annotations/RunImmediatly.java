@@ -1,0 +1,14 @@
+package com.lightbend.lagom.maven_archetype_lagom_java.main.Annotations;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface RunImmediatly {
+
+	int times() default 1; //can only be primitive, class, string or array. 
+
+}
