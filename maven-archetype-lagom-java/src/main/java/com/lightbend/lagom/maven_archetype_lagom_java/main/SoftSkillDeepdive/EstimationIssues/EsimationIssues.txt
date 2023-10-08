@@ -1,0 +1,27 @@
+Estimates are unreliable:
+
+1) Work we do is not repeatable AND has different correct solutions
+2) too many variables - how many problems are we going to run into
+3) surface level understanding of what is needed to build something
+	-may have a strong ui preference for the core of what is being added BUT the minor edge case details can significantly add up
+4) unique integration - ex: saas (Software as a service) product 
+5) low diagnostic output - things can go wrong (error handling, unit testing. don't cut corners!) can't predict significant weird errors. 
+6) knowledge work mismatch - every user story has unique aspect to it. (the beatings will continue until moral improves. by putting pressure to get things done you make it worse)
+7) under valued team work - people don't work in isolation. "we are a team yay!" but then measurements are all independent 
+
+
+Reduce impact of bad estimates:
+1) reduce the amount of what you are estimating. (6 months bad!) story points are NOT hours!!! estimates were not reliable so we implement story points. This tries to reduce the impact when things go wrong. 
+2) keep estimates within the estimator (someone leaves, gets sick, etc and the task gets passed off to another team member then that team member shouldn't be held to the original estimate)
+3) estimate works as components - business only sees surface level, think through the software components not just the visible ones
+4) choose familiar technologies - Frankenstein stack of tons of different technology. stick to whats proven
+5) native integration -  some thing was specifically made for what you need to do. don't reinvent things that have been designed already.
+6) stop using estimates - just do it! probably not going to happen but one can hope
+
+
+
+
+
+
+-negative and positive feedback loops
+-easier to see the issues with other people (this becomes us vs them)

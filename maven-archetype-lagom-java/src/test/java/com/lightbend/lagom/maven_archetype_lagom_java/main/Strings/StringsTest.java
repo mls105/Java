@@ -32,5 +32,7 @@ public class StringsTest {
     	
     	//String objects will never change! security risk of reference changes will never happen!
     	//Strings are thread safe
+    	
+
     }
 }
