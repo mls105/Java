@@ -25,3 +25,6 @@ Reduce impact of bad estimates:
 
 -negative and positive feedback loops
 -easier to see the issues with other people (this becomes us vs them)
+
+
+we are on the hook for stuff that we don't even have all the info on.

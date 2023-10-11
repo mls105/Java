@@ -1,0 +1,10 @@
+Why programmers lose hope:
+
+Forced to cut corners - estimates are bad (unit testing, rushed design, hacky code)
+Cognative overload - coding is already hard.. adding extra processes (meetings, time tracker)  doesn't help
+low perception of value - trivializing the work done
+learned helpless - negativity on the team can really do damage
+push back on unreasonable requests
+communicate uncertainty - we can't predict everything. stop agreeing to work/deadline without enough information
+ask for help earlier - level of experience doesn't matter. check ego
+
