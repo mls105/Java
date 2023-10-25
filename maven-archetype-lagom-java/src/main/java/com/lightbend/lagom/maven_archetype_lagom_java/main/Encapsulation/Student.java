@@ -2,7 +2,7 @@ package com.lightbend.lagom.maven_archetype_lagom_java.main.Encapsulation;
 
 
 /**
- * The practice of keeping fields within a class private, then providing access to those fields via public methods. 
+ * Encapsulation is the practice of keeping fields within a class private, then providing access to those fields via public methods. 
  * Encapsulation is a protective barrier that keeps the data and code safe within the class itself. We can then reuse 
  * objects like code components or variables without allowing open access to the data system-wide.
  * 

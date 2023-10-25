@@ -28,3 +28,4 @@ Reduce impact of bad estimates:
 
 
 we are on the hook for stuff that we don't even have all the info on.
+highly depended on other people/tools

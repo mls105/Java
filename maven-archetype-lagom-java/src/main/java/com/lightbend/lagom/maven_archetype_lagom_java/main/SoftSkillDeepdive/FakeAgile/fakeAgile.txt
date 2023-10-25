@@ -1,0 +1,8 @@
+Agile:
+Continuously deliver value! Why?? - Customers want something but it takes so long to build that by the time they get it it's taken too long and is wrong.
+Need feedback from customer and act on it asap
+
+
+How to spot fake agile:
+How do we gather feedback? Every time we do a release we get info from customer/tester
+How do we plan for feedback changes?
