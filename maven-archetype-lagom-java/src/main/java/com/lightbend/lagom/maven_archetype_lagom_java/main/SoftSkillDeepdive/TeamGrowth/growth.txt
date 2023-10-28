@@ -1,0 +1,39 @@
+Growing individually:
+As problems arise I try and write them down so we can address them
+As issues come up I will specifically try and find ways to be better(technical code, linux, vm, debug, soft skills, responsibilities as a coder who is looking at the code, 
+
+
+Growing as a team:
+How are we handling confrontation?
+How do we address if things we are implementing are working? (End of day status? Investigations? Procedures? MR review?) 
+Reflecting on our process as a team and addressing any issues...Are we missing stuff
+
+
+
+Extra thoughts:
+Why is PO not in Sprint retro
+SM take a step  back and let devs be responsible/run the meeting
+Backlog refinement working?
+Bradley is expecting SM to be doing detailed Merge reviews
+Do we set people up for success?
+
+
+
+
+List of things we must know how to do on the benches
+List of technical things every dev should know
+
+
+
+Tech persuasion:
+#1 Be Honest About Your Skills
+#2 Have an Authentic Relationship
+#3 Know How To Measure Success
+#4 Identify Benefits To Others
+#5 Incremental Persuasion
+#6 Create Visual Aids and Assets
+#7 Future-Pace The Benefits
+#8 Know How They're Measured
+#9 Timebox The Response for Support
+#10 Practice Persuasion
+#11 Episode Groove

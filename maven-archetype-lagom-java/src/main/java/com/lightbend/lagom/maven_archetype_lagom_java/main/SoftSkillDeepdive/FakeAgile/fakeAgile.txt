@@ -6,3 +6,14 @@ Need feedback from customer and act on it asap
 How to spot fake agile:
 How do we gather feedback? Every time we do a release we get info from customer/tester
 Do we plan for feedback changes?
+
+
+
+Why programmers hate Scrum:
+1) PO shouldnt be in DSU
+2) overstepping SM when they aren't technical
+3) obsession with features 
+4) story points treated as time
+5) refusal to cancel sprint
+6) No acceptance criteria (scope can really blow up as you go down edge cases) 
+7) burn down chart used to blame
