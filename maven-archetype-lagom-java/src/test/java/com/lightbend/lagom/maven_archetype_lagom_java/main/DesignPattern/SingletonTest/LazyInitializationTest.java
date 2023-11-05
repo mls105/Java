@@ -1,5 +1,0 @@
-package com.lightbend.lagom.maven_archetype_lagom_java.main.DesignPattern.SingletonTest;
-
-public class LazyInitializationTest {
-
-}

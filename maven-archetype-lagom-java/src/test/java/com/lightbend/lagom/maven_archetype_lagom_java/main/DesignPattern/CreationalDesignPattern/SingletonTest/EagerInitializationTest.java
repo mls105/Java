@@ -1,10 +1,10 @@
-package com.lightbend.lagom.maven_archetype_lagom_java.main.DesignPattern.SingletonTest;
+package com.lightbend.lagom.maven_archetype_lagom_java.main.DesignPattern.CreationalDesignPattern.SingletonTest;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.lightbend.lagom.maven_archetype_lagom_java.main.DesignPatterns.Singleton.EagerInitialization;
+import com.lightbend.lagom.maven_archetype_lagom_java.main.DesignPatterns.CreationalDesignPattern.Singleton.EagerInitialization;
 
 public class EagerInitializationTest {
 

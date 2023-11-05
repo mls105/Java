@@ -1,4 +1,4 @@
-package com.lightbend.lagom.maven_archetype_lagom_java.main.DesignPatterns.Singleton;
+package com.lightbend.lagom.maven_archetype_lagom_java.main.DesignPatterns.CreationalDesignPattern.Singleton;
 
 public class EagerInitialization {
 
