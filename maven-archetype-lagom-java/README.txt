@@ -1,0 +1,1 @@
+Created this git repo to track concepts I have learned over the years while working on java code. Also adding concepts I need to know but may not have specifically used before. 
