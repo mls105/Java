@@ -9,8 +9,10 @@ public class App
     public static void main( String[] args )
     {
 
-//        System.out.println("testing OOP concepts! :) ");
+    	//Concepts are all testing/shown off in the src/main and/or src/test
         
+    	
+    	//TODO Make a test with the eclipse shortcuts that are awesome
         //eclipse shorcut type sysout (ctr + space + enter) for prtintln 
        
     }
