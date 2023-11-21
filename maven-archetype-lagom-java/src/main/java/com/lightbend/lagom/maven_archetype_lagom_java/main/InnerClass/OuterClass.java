@@ -16,10 +16,10 @@ public class OuterClass {
 			}
 		}
 		
+		//this is really cool but would you ever use it
 		localInnerClass lic = new localInnerClass();
 		lic.printLocalVar();
-		
-		
+
 	}
 
 	public static class InnerClass {

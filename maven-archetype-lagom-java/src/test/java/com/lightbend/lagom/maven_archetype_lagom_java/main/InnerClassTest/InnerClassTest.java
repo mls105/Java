@@ -12,7 +12,6 @@ public class InnerClassTest {
 	@Test
 	public void testInnerclass()
 	{
-		System.out.println("what is going on");
 		OuterClass outer = new OuterClass();
 		outer.heythere();
 		
