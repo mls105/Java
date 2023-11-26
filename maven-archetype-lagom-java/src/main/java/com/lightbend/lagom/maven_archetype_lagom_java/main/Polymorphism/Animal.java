@@ -4,9 +4,22 @@ public class Animal {
 	public String name;
 	public String color;
 	
+	public Animal(String name, String color) {
+		this.name = name;
+		this.color = color;
+	}
+
+	public Animal() {
+	}
+
 	public void eat()
 	{
 		System.out.println("munch!");
+	}
+	
+	public void makeNoise() 
+	{
+		System.out.println("yap yap yap!");
 	}
 	
 	public String getName()
