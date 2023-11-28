@@ -4,6 +4,30 @@ import com.lightbend.lagom.maven_archetype_lagom_java.main.Abstraction.Animal;
 
 /**
  * Static should be used for class level field/methods that are shared values amount the class
+ * 
+ * Shared memory allocation: 
+ * Static variables and methods are allocated memory space only once during the execution of the 
+ * program. This memory space is shared among all instances of the class, which makes static members 
+ * useful for maintaining global state or shared functionality. 
+ * 
+ * Accessible without object instantiation: 
+ * Static members can be accessed without the need to create an instance of the class. This makes 
+ * them useful for providing utility functions and constants that can be used across the entire program.
+ * 
+ * Associated with class, not objects: 
+ * Static members are associated with the class, not with individual objects. This means that changes 
+ * to a static member are reflected in all instances of the class, and that you can access static members 
+ * using the class name rather than an object reference.
+ * 
+ * Cannot access non-static members: 
+ * Static methods and variables cannot access non-static members of a class, as they are not associated 
+ * with any particular instance of the class.
+ * 
+ * Can be overloaded, but not overridden: 
+ * Static methods can be overloaded, which means that you can define multiple methods with the same name 
+ * but different parameters. However, they cannot be overridden, as they are associated with the class 
+ * rather than with a particular instance of the class.
+ * 
  * @author 18603
  *
  */
