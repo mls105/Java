@@ -20,6 +20,9 @@ public class InnerClassTest {
 		OuterClass.InnerClass inner = new OuterClass.InnerClass();
 		inner.whatsUp();
 		
+		OuterClass.InnerNonStaticClass innerNonStaticClass = outer.new InnerNonStaticClass();
+		innerNonStaticClass.whatsUp();
+		
 		assertNotNull(outer);
 				
 	}

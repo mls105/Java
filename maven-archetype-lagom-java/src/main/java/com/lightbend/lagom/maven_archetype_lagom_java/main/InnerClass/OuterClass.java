@@ -29,5 +29,13 @@ public class OuterClass {
 			System.out.println("What's up from the inner class");
 		}
 	}
+	
+	public  class InnerNonStaticClass {
+		int innerNumber = 10;
+
+		public void whatsUp() {
+			System.out.println("What's up from the non static inner class");
+		}
+	}
 
 }
