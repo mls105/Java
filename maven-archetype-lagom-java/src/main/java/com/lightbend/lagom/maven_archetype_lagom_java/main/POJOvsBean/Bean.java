@@ -14,6 +14,10 @@ import java.io.Serializable;
  *
  */
 public class Bean implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6704634300648498714L;
 	//no args constructor automatically created in java
 	private int someInt;
 	private String someString;

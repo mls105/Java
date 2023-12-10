@@ -7,6 +7,10 @@ import org.junit.Test;
 import com.lightbend.lagom.maven_archetype_lagom_java.main.PassByValue.Cheese;
 
 /**
+ * pass by value means making a copy
+ * pass by reference is passing the memory address of the original
+ * 
+ * 
  * 100% of the time java is pass by value. obj or primitives it doesnt matter
  * @author 18603
  *
@@ -53,6 +57,7 @@ public class PassByValueTest {
 	
 	private static void increaseLevelOfStinkinessWithNewObject(Cheese cheese)
 	{
+		
 		cheese = new Cheese(); //brand new cheese object in memory. different address
 		cheese.setLevelOfStinkiness(756); // this is a whole new object. no longer pointing to the object passed in
 	}
