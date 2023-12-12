@@ -1,0 +1,21 @@
+Linear Data structure:
+-The data elements are stored in a linear order in the case of linear data structure. Each and every element is connected to the first and the next element in the sequence.
+-The structure of the data consists of a single level. There is no hierarchy in the linear data structure.
+-The implementation of the linear structure of data is easy as the elements are stored in a linear way.
+-Traversal of the elements in a linear data structure can be carried out in a single execution because the data is present in a single level
+-There is no efficient utilization of memory in a linear data structure.
+-Examples of linear data structures include array, stack, queues, and linked list.
+-The linear structure of data is applied mainly in software development.
+-With the increase in the size of the input, the time complexity increases.
+-Only one type of relationship might be present between the data elements
+
+Non-linear data structure:
+-The data elements in the case of a non-linear data structure are arranged in a non-linear way and attached hierarchically. The data elements are attached to multiple elements.
+-In this structure, there are multiple levels involved in the structure. Therefore the elements are arranged hierarchically.
+-The implementation of the structure is a complex process compared to the linear structure.
+-Traversal of the elements cannot be carried out in a single execution only. Multiple runs are required for traversing the data in a non-linear data structure.
+-There is efficient utilization of memory in a non-linear data structure.
+-Examples of non-linear data include trees and graphs
+-The non-linear structure of data is mostly applied in Artificial intelligence and image processing.
+-Even if there is an increase in the size of the input, the time complexity remains the same.
+-A one-to-one or one-to-many type of relationship can exist between the elements in a non-linear type of data structure.
