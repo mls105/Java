@@ -21,6 +21,9 @@ import com.lightbend.lagom.maven_archetype_lagom_java.main.Maps.Name;
 
 public class MapsTest {
 	
+	/**
+	 * HashMaps do not preserve insertion order
+	 */
 	@Test
 	public void HashMapTest()
 	{
@@ -59,6 +62,9 @@ public class MapsTest {
 		System.out.println(empIDs);
 	}
 	
+	/**
+	 * LinkedHash Maps Preserve insertion order
+	 */
 	@Test
 	public void LinkedHashMapTest()
 	{
@@ -132,10 +138,10 @@ public class MapsTest {
 		Collection<Name> CollectionOfNames = linkedNames.keySet();
 		Map<Name, CommentBuilder> feedback = new HashMap<Name, CommentBuilder>();
 		
-		int i = 0;
+//		int i = 0;
 		for(Name name: names)
 		{
-			i++;
+//			i++;
 			CommentBuilder comment = linkedNames.get(name);
 			feedback.put(name, comment);
 		}
