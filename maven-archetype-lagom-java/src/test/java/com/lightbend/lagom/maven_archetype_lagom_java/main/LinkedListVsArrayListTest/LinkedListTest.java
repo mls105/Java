@@ -39,9 +39,11 @@ public class LinkedListTest {
 		
 //		Linked List:
 //		- inserting or removing a value is VERY fast!
+//		- getting values is slow
 //		
 //		Array List:
 //		-getting a value is very fast
+//      -inserting values is slow
 //
 //		tiny list doesn't really matter!
 //		if the list is static and doesn't change much and you are just retrieving values then use an array list
