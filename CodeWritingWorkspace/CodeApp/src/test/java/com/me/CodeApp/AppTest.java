@@ -1,4 +1,4 @@
-package maven.CodeWriting;
+package com.me.CodeApp;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,4 +1,4 @@
-package maven.CodeWriting;
+package com.me.CodeApp;
 
 /**
  * Hello world!
