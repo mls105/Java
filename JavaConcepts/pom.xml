@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.lightbend.lagom</groupId>
-  <artifactId>maven-archetype-lagom-java</artifactId>
+  <artifactId>JavaConcepts</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>maven-archetype-lagom-java</name>
