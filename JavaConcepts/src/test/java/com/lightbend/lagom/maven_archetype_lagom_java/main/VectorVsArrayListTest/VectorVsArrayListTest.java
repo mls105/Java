@@ -13,6 +13,13 @@ import org.junit.Test;
 //import org.junit.jupiter.api.TestMethodOrder;
 //
 //@TestMethodOrder(OrderAnnotation.class)
+/**
+ * Vectors are a relic of the past :) In most cases you will want to use ArrayLists
+ * 
+ * Good for synchronizing operations across multiple threads but you can use the synchronized list wrapper on the ArrayList.
+ * 
+ * Very rare to synchronize every operation. Synchronizing over a few operations (ie check if it's in the list and THEN adding it)
+ */
 public class VectorVsArrayListTest {
 
 	private int size = 10000000;
