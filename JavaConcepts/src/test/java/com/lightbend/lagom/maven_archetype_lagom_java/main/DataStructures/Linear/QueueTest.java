@@ -17,7 +17,6 @@ public class QueueTest {
 	@Test
 	public void queueTest()
 	{
-		
 		//FIFO
 		//Queue is a linear data structure.
 		//Enqueue and dequeue O(1)
