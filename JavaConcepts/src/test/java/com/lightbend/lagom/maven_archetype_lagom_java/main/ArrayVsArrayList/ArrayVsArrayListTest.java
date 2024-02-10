@@ -35,7 +35,7 @@ public class ArrayVsArrayListTest {
 		//can't add elements to array
 		//array lists can add elements!
 		
-		friendsArrayList2.add("Sayer");
+		friendsArrayList2.add("Sawyer");
 		assertTrue(5 == friendsArrayList2.size());
 		
 		System.out.println(friendsArray); //will print out the memory address
