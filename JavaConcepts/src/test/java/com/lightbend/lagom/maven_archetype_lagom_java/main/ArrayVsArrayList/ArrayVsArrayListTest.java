@@ -42,7 +42,6 @@ public class ArrayVsArrayListTest {
 		System.out.println(friendsArrayList2); //will print out all the elements
 		
 		//just use array lists :-)
-		
 	}
 	
 	
