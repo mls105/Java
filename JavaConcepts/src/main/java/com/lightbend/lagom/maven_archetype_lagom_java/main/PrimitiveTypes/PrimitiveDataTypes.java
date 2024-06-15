@@ -2,8 +2,29 @@ package com.lightbend.lagom.maven_archetype_lagom_java.main.PrimitiveTypes;
 
 public class PrimitiveDataTypes {
 	
-	/** -128 to 127 - 1 byte = 8 bits */
-	public byte myByte = 12;
+	/**
+	 *   
+	 *   1 byte = 8 bits 
+	 *   1 word = 2 bytes (16 bits)
+	 * 
+	 * 	2^10 = 1024
+	 * 	1kb = 1024 bytes
+	 * 
+	 * 
+	 * 10^1   deca  - da
+	 * 10^2   hecto - h
+	 * 10^3   kilo  - k
+	 * 10^6   mega  - M
+	 * 10^9   giga  - G
+	 * 10^12  tera  - T
+	 * 10^15  peta  - P
+	 * 
+	 * 
+	 *  
+	 */
+	
+	/** -128 to 127 */
+	byte myByte = 12;
 	
 	/** -32,768 to 32,767 - 2 bytes = 16 bits never use this really */
 	short myShort = 1234;
