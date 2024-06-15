@@ -1,4 +1,4 @@
-package com.DataStructuresAndAlgorithms.Notes;
+package com.DataStructuresAndAlgorithms.Main;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,4 +1,4 @@
-package com.DataStructuresAndAlgorithms.Notes;
+package com.DataStructuresAndAlgorithms.Main;
 
 /**
  * Hello world!
